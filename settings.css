@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #BAEEFF;
+}
+
+.goose {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.quack {
+    margin-left: -40px;
+    z-index: -1;
+}
+
+
+#flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.placing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    font-family: Inder, sans-serif;
+    font-size: 4rem;
+}
+
+.one:hover {
+    background-color: #05BAF4;
+}
+
+.one {
+    background-color: #00A7DD;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    font-family: Inder, sans-serif;
+    margin: 20px;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+/* ---------------------------------------------------------- */
+
+
+.back {
+    background-color: #00A7DD;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    font-family: Inder, sans-serif;
+    margin: 20px;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: #05BAF4;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.arrow {
+    padding-top: 5px;
+    width: 60px;
+}
