@@ -83,7 +83,6 @@ body {
     height: 25px;
     border-radius: 50%;
     background: #00A7DD;
-    cursor: pointer;
 }
 
 .slider::-moz-range-thumb {
@@ -91,7 +90,6 @@ body {
     height: 20px;
     border-radius: 50%;
     background: #00A7DD;
-    cursor: pointer;
 }
 
 .slider::-webkit-slider-thumb:hover {
@@ -148,13 +146,11 @@ body {
 .container {
     margin-bottom: 20px;
     padding-right: 79px;
-    cursor: pointer;
     font-size: 22px;
 }
 
 /* Hide the browser's default checkbox */
 .container input {
-    cursor: pointer;
     height: 0;
     width: 0;
 }
@@ -194,7 +190,6 @@ body {
     margin: 20px;
     width: 180px;
     height: 60px;
-    cursor: pointer;
 }
 
 .back:hover {
